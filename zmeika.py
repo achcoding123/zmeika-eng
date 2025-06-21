@@ -62,7 +62,7 @@ def gameLoop():
  
         while game_close == True:
             dis.fill(blue)
-            message("ty sdox!posdrawlay", red)
+            message("ti proigral", red)
             Your_score(Length_of_snake - 1)
             pygame.display.update()
  
