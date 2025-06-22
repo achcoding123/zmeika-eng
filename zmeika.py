@@ -27,7 +27,7 @@ score_font = pygame.font.SysFont("comicsansms", 35)
  
  
 def Your_score(score):
-    value = score_font.render("sojral kwodratow: " + str(score), True, yellow)
+    value = score_font.render("siel kwodratow: " + str(score), True, yellow)
     dis.blit(value, [0, 0])
  
  
